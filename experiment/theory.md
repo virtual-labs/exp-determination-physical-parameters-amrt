@@ -110,7 +110,7 @@ The turbidity of sample solution can be measured by using Nephelometer. It is us
     (nominal 400 NTU) to 200 mL.
 </p>
 
-<table border="1" cellpadding="8" cellspacing="0">
+<table cellpadding="8" cellspacing="0">
   <thead>
     <tr>
       <th>Dilute to 200 mL</th>
@@ -171,7 +171,7 @@ turbidities by determining turbidity of the water flowing out of them using a la
 the instruments according to manufacturer’s instructions with formazin primary standard or appropriate secondary standard.</p>
 
 <h3>Turbidity</h3>
-<table border="1" cellpadding="8" cellspacing="0">
+<table cellpadding="8" cellspacing="0">
   <thead>
     <tr>
       <th>Sample Type</th>
