@@ -215,7 +215,7 @@ Practically every phase of water supply and waste water treatment such as water 
 
 <h3>pH of Various Samples:</h3>
 
-<table border="1" cellpadding="8" cellspacing="0" style="text-align: center;">
+<table cellpadding="8" cellspacing="0" style="text-align: center;">
   <thead>
     <tr>
       <th>Samples</th>
@@ -288,7 +288,7 @@ Practically every phase of water supply and waste water treatment such as water 
 </ol>
 
 <h4>KCl Conductivity Table</h4>
-<table border="1" cellpadding="8" cellspacing="0" style="text-align: center; margin: auto;">
+<table cellpadding="8" cellspacing="0" style="text-align: center; margin: auto;">
   <thead>
     <tr>
       <th>KCl Concentration (M)</th>
@@ -341,7 +341,7 @@ Practically every phase of water supply and waste water treatment such as water 
 
 <h3>Values of Electrical Conductivity:</h3>
 
-<table border="1" cellpadding="8" cellspacing="0" style="text-align: center; margin: auto;">
+<table cellpadding="8" cellspacing="0" style="text-align: center; margin: auto;">
   <thead>
     <tr>
       <th>Sample</th>
