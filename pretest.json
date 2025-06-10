@@ -1,0 +1,29 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The standard unit of turbidity is considered as that produced by__________.",
+      "answers": {
+        "a": "4ppm of silica in distilled water",
+        "b": "2ppm of silica in distilled water",
+        "c": "9ppm of silica in distilled water",
+        "d": "1ppm of silica in distilled water"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For the measurement of turbidity of water sample, commonly used standard reference solution is...........",
+      "answers": {
+        "a": "Formazin polymer",
+        "b": "KCl",
+        "c": "Buffer solution",
+        "d": "None of these"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
