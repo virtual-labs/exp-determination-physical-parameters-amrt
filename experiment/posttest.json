@@ -2,36 +2,38 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The concept of pH is put forwarded by __________ in 1909.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Arrhenius",
+        "b": "Bronsted",
+        "c": "Sorensen",
+        "d": "Lewis"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Raw water has an electrical conductivity in the range of.........",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "0.5 µS/cm",
+        "b": "56,000 µS/cm",
+        "c": "500-800 µS/cm",
+        "d": "50-100 µS/cm"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What can we measure by using a nephelometer?",
+      "answers": {
+        "a": "pH",
+        "b": "Electrical conductivity",
+        "c": "Turbidity",
+        "d": "Alkalinity"
       },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
