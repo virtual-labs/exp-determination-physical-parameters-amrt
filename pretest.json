@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The standard unit of turbidity is considered as that produced by__________.",
+      "answers": {
+        "a": "4ppm of silica in distilled water",
+        "b": "2ppm of silica in distilled water",
+        "c": "9ppm of silica in distilled water",
+        "d": "1ppm of silica in distilled water"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For the measurement of turbidity of water sample, commonly used standard reference solution is...........",
+      "answers": {
+        "a": "Formazin polymer",
+        "b": "KCl",
+        "c": "Buffer solution",
+        "d": "None of these"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "The concept of pH is put forwarded by __________ in 1909.",
+      "answers": {
+        "a": "Arrhenius",
+        "b": "Bronsted",
+        "c": "Sorensen",
+        "d": "Lewis"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Raw water has an electrical conductivity in the range of.........",
+      "answers": {
+        "a": "0.5 µS/cm",
+        "b": "56,000 µS/cm",
+        "c": "500-800 µS/cm",
+        "d": "50-100 µS/cm"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What can we measure by using a nephelometer?",
+      "answers": {
+        "a": "pH",
+        "b": "Electrical conductivity",
+        "c": "Turbidity",
+        "d": "Alkalinity"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

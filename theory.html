@@ -1,0 +1,772 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'AMRT',
+        'phase': 'Testing',
+        'expName': 'WATER ANALYSIS-DETERMINATION OF PHYSICAL PARAMETERS',
+        'expShortName': 'determination-physical-parameters'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="determination-physical-parameters">
+    	<meta name="developer-institute" content="AMRT">
+    	<meta name="learning-unit" content="WATER ANALYSIS-DETERMINATION OF PHYSICAL PARAMETERS">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/css/toast.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="determination-physical-parameters" imagesdirectory="/plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] WATER ANALYSIS-DETERMINATION OF PHYSICAL PARAMETERS" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AMRT&quot;,&quot;expname&quot;:&quot;WATER ANALYSIS-DETERMINATION OF PHYSICAL PARAMETERS&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Self Evaluation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="assignment.html" class="p-2 ">
+                                      Assignment
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Self Evaluation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="assignment.html" class="p-2 ">
+                        Assignment
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="water-analysis-determination-of-physical-parameters">Water analysis-Determination of Physical parameters</h2>
+          
+            </div>
+              <h2 id="theory">Theory</h2>
+          <p>It is needless to emphasize the importance of water in our life. Without water, there is  no life on our planet.  We need water for different purposes. We need water for drinking, for industries, for irrigation, for swimming and fishing, etc. </p>
+          <p>Water for different purposes has its own requirements as to composition and purity. Each body of water needs to be analysed on a regular basis to confirm to suitability. The types of analysis could vary from simple field testing for a single analyte to laboratory based multi-component instrumental analysis. The measurement of water quality is a very exacting and time consuming process, and a large number of quantitative analytical methods are used for this purpose.</p>
+          <h3 id="turbidity">Turbidity:</h3>
+          <p>Turbidity is the amount of particulate matter that is suspended in water. Turbidity measures the scattering effect that suspended solids have on light: the higher the intensity of scattered light, the higher the turbidity.</p>
+          <div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure1.jpg" alt="Figure 1" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"></p></div>
+          
+          
+          <h4 id="material-that-causes-water-to-be-turbid-includes">Material that causes water to be turbid includes:</h4>
+          <ul>
+          <li>Clay.</li>
+          <li>Silt.</li>
+          <li>Finely divided organic and inorganic matter.</li>
+          <li>Soluble coloured organic compounds.</li>
+          <li>Plankton.</li>
+          <li>Microscopic organisms.</li>
+          </ul>
+          <p>The turbidity of sample solution can be measured by using Nephelometer. It is usually measured in nephelometric turbidity units (NTU) or Jackson turbidity units (JTU).</p>
+          <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; text-align: center;">
+          <div style="max-width: 300px;">
+          <img src="./images/figure2.jpg" alt="Figure 2" style="width: 100%; height: auto;">
+          <p style="font-size: smaller; font-style: italic;"></p>
+          </div>
+          <div style="max-width: 400px;">
+          <img src="./images/figure3.jpg" alt="Figure 3" style="width: 100%; height: auto;">
+          <p style="font-size: smaller; font-style: italic;"></p>
+          </div>
+          </div>
+          
+          
+          <h2>Principle:</h2>
+          <p>
+              This method is based on a comparison of the intensity of light scattered by the sample under defined conditions 
+              with the intensity of light scattered by a standard reference suspension under the same conditions. 
+              The higher the intensity of scattered light, the higher the turbidity. 
+              Commonly used primary standard reference suspension is Formazin polymer. 
+              The turbidity of a specified concentration of formazin suspension is defined as 400 NTU. (w.1)
+          </p>
+          
+          <h2>Interference:</h2>
+          <ul>
+              <li>The presence of floating debris and coarse sediments will give high readings.</li>
+              <li>Air bubbles will cause high results.</li>
+              <li>Coloured samples will cause low results.</li>
+          </ul>
+          
+          <h2>Apparatus:</h2>
+          <p>
+              Laboratory or process nephelometer consisting of a light source for illuminating the sample and one or more 
+              photoelectric detectors with a readout device to indicate intensity of light scattered at 90º to the path of incident light.
+          </p>
+          <p>
+              <strong>Sample cells:</strong> Use sample cells or tubes of clear, colourless glass or plastic. 
+              Keep cells scrupulously clean, both inside and out, and discard if scratched or etched.
+          </p>
+          
+          <h2>Reagents:</h2>
+          
+          <h3>1. Dilution Water:</h3>
+          <p>
+              High-purity water will cause some light scattering, which is detected by nephelometers as turbidity. 
+              To obtain low-turbidity water for dilutions, nominal value 0.02 NTU, pass laboratory reagent-grade water 
+              through a filter with pore size sufficiently small to remove essentially all particles larger than 0.1µm. 
+              The usual membrane filter used for bacteriological examinations is not satisfactory. 
+              Rinse collecting flask at least twice with filtered water and discard the next 200 mL.
+          </p>
+          
+          <h3>2. Stock Primary Standard Formazin Suspension:</h3>
+          
+          <h4>2.1 Solution (i):</h4>
+          <p>
+              Dissolve 1g hydrazinesulphate (NH<sub>2</sub>)<sub>2</sub>.H<sub>2</sub>SO<sub>4</sub> in distilled water and dilute to 100 mL in a volumetric flask.
+          </p>
+          <p><strong>[Caution:</strong> Hydrazine sulphate is a carcinogen; avoid inhalation, ingestion, and skin contact. Formazine suspensions can contain residual hydrazine sulphate.]</p>
+          
+          <h4>2.2 Solution (ii):</h4>
+          <p>
+              Dissolve 10.0g hexamethylenetetramine, (CH<sub>2</sub>)<sub>6</sub>N<sub>4</sub>, in distilled water and dilute to 100 mL in a volumetric flask.
+          </p>
+          
+          <h4>2.3 Preparation of 400 NTU Stock Suspension:</h4>
+          <p>
+              In a flask, mix 5.0 mL solution (i) and 5.0 mL solution (ii). 
+              Let stand for 24 hr at 25 ± 3ºC. This results in a 400-NTU suspension. 
+              Transfer stock suspension into an amber glass or other UV-light-blocking bottle for storage. 
+              Make dilutions from this stock suspension. The stock suspension is stable for up to 1 year when properly stored.
+          </p>
+          
+          <h4>2.4 Dilute Turbidity Suspensions:</h4>
+          <p>
+              Dilute 400 NTU primary standard suspensions with high-quality dilution water. 
+              Prepare immediately before use and after use.
+          </p>
+          
+          <p>
+              Working standards can be prepared by dilution of the following quantities of the stock formazin turbidity suspension 
+              (nominal 400 NTU) to 200 mL.
+          </p>
+          
+          <table cellpadding="8" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Dilute to 200 mL</th>
+                <th>Resultant NTU</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10 mL</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>5 mL</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>2 mL</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>0.5 mL</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>0.2 mL</td>
+                <td>0.4</td>
+              </tr>
+              <tr>
+                <td>0.0 mL</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          
+          <h3>3. Secondary standards:</h3>
+          <p>
+              Secondary standards are standards that the manufacturer has certified will give instrument calibration results 
+              equivalent (within certain limits) to the results obtained when the instrument is calibrated with the primary standard, 
+              i.e., the user-prepared formazin.
+          </p>
+          
+          <h3>Procedure:</h3>
+          
+          <p><strong>a) General measurement techniques:</strong> Proper measurement techniques are important in minimizing the effects 
+          of instrument variables, as well as stray light and air bubbles. Regardless of the instrument used, the measurement will be 
+          more accurate, precise, and repeatable if close attention is paid to proper measurement techniques.</p>
+          
+          <p><strong>b) Nephelometer calibration:</strong> Follow the manufacturer’s operating instructions. Run at least one standard 
+          in each instrument range to be used. Make certain the nephelometer gives stable readings in all sensitivity ranges used.</p>
+          
+          <p><strong>c) Measurement of turbidity:</strong> Gently agitate sample. Wait until air bubbles disappear and pour sample into 
+          cell. When possible, pour well-mixed sample into cell and immerse it in an ultrasonic bath for 1 to 2 seconds or apply vacuum 
+          degassing, causing complete bubble release. Read turbidity directly from instrument display.</p>
+          
+          <p><strong>d) Calibration of continuous turbidity monitors:</strong> Calibrate continuous turbidity monitors for low 
+          turbidities by determining turbidity of the water flowing out of them using a laboratory-model nephelometer. Or calibrate 
+          the instruments according to manufacturer’s instructions with formazin primary standard or appropriate secondary standard.</p>
+          
+          <h3>Turbidity</h3>
+          <table cellpadding="8" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Sample Type</th>
+                <th>NTU</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Drinking water</td>
+                <td>Between 5 NTU &amp; 1 NTU</td>
+              </tr>
+              <tr>
+                <td>Sea water</td>
+                <td>Varies from 6–12 NTU</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h3>pH:</h3>
+          <p>
+              pH may be measured accurately using a pH meter. The pH meter must be calibrated before making pH measurements. 
+              For calibration, standard buffers of pH 4.00, 7.00 and 10.00 are used. pH of water indicates the hydrogen ion 
+              concentration in water. The concept of pH was put forward by **Sorenson** in 1909. It is expressed as the logarithm 
+              of the reciprocal of the hydrogen ion concentration in moles/litre at a given temperature. 
+              While the alkalinity or acidity measures the total resistance to the pH change or buffering capacity, 
+              the pH gives the hydrogen ion activity. The pH scale extends from 0 (very acidic) to 14 (very alkaline) 
+              with 7 corresponding to exact neutrality at 25ºC. pH is used in the calculation of carbonate, bicarbonate and CO<sub>2</sub>, 
+              corrosion, stability index, etc.
+          </p>
+          
+          <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>p</mi><mi>H</mi><mo>=</mo><mo>−</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo stretchy="false">(</mo><mo stretchy="false">[</mo><msup><mi>H</mi><mo>+</mo></msup><mo stretchy="false">]</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">pH=-log([H^+])</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0713em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mopen">([</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mclose">])</span></span></span></span></span></p>
+          <p>Practically every phase of water supply and waste water treatment such as water softening, acid-base neutralization, coagulation, precipitation, disinfectant and corrosion control is pH dependent. The pH of a water sample measures its hydrogen ion concentration and indicates whether the sample is acidic, neutral or basic. </p>
+          <h3 id="ph-meter">pH meter:</h3>
+          <div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure4.jpg" alt="Figure 1" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"></p></div>
+          
+          
+          <h3>pH of Various Samples:</h3>
+          
+          <table cellpadding="8" cellspacing="0" style="text-align: center;">
+            <thead>
+              <tr>
+                <th>Samples</th>
+                <th>pH</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tap water</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>Sea water</td>
+                <td>Varies from 7.5 – 8.4</td>
+              </tr>
+              <tr>
+                <td>Well water</td>
+                <td>Varies from 6.5 – 8.5</td>
+              </tr>
+              <tr>
+                <td>Distilled water</td>
+                <td>5.8</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h3>Electrical Conductivity:</h3>
+          
+          <p>
+            Electrical conductivity (EC) is a measure of how conductive the water is to electrical current. 
+            Greater the ion concentration, greater is the EC. Generally, higher the EC, higher is the total dissolved solids. 
+            Electrical conductivity is an indirect measure for finding the total dissolved solids in a water body.
+          </p>
+          
+          <p>
+            To convert the electrical conductivity of a water sample 
+            (<abbr title="micro Siemens per centimetre">μS/cm</abbr>) to the concentration of total dissolved solids (ppm), 
+            the conductivity must be multiplied by a factor between 0.46 and 0.9 
+            (depending on the unique mixture of the dissolved materials).
+          </p>
+          
+          <p>
+            A widely accepted conversion factor is 0.67: <br>
+            <strong>TDS (ppm) = Conductivity (μS/cm) × 0.67</strong>
+          </p>
+          
+          <p>
+            The instrument used for measuring conductivity is a <strong>conductivity meter</strong>.
+          </p>
+          
+          <div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure5.jpg" alt="Figure 5" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"></p></div>
+          
+          <h3>Reagents:</h3>
+          
+          <ol>
+            <li>
+              <strong>Conductivity water:</strong> Any of several methods can be used to prepare reagent-grade water. 
+              Conductivity should be small compared to the value being measured.
+            </li>
+            <li>
+              <strong>Standard Potassium Chloride solution (KCl) 0.01 M:</strong> 
+              Dissolve 745.6 mg anhydrous KCl in conductivity water and dilute to 1000 mL in a class A volumetric flask at 25ºC and store in a CO<sub>2</sub>-free atmosphere. 
+              This is the standard reference solution, which at 25ºC has a conductivity of 1412 µS/cm. 
+              It is satisfactory for most samples when the cell has a constant between 1 and 2 cm<sup>−1</sup>. 
+              For other cell constants, use stronger or weaker KCl solutions listed in the table below. 
+              Care must be taken when using KCl solutions less than 0.001 M, which can be unstable due to CO<sub>2</sub> in pure water. 
+              For low conductivity standards, Standard Reference Material 3190, with a certified conductivity of 25.0 µS/cm ±0.3 µS/cm, may be obtained from NIST. 
+              Store in a glass-stoppered borosilicate glass bottle.
+            </li>
+          </ol>
+          
+          <h4>KCl Conductivity Table</h4>
+          <table cellpadding="8" cellspacing="0" style="text-align: center; margin: auto;">
+            <thead>
+              <tr>
+                <th>KCl Concentration (M)</th>
+                <th>Equivalent Conductivity<br>(cm<sup>2</sup>Ω<sup>−1</sup> equiv<sup>−1</sup>)</th>
+                <th>Conductivity, κ (µS/cm)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>0</td><td>149.9</td><td>—</td></tr>
+              <tr><td>0.0001</td><td>148.9</td><td>14.9</td></tr>
+              <tr><td>0.0005</td><td>147.7</td><td>73.9</td></tr>
+              <tr><td>0.001</td><td>146.9</td><td>146.9</td></tr>
+              <tr><td>0.005</td><td>143.6</td><td>717.5</td></tr>
+              <tr><td>0.01</td><td>141.2</td><td>1412</td></tr>
+              <tr><td>0.02</td><td>138.2</td><td>2765</td></tr>
+              <tr><td>0.05</td><td>133.3</td><td>6667</td></tr>
+              <tr><td>0.1</td><td>128.9</td><td>12890</td></tr>
+              <tr><td>0.2</td><td>124.0</td><td>24800</td></tr>
+              <tr><td>0.5</td><td>117.3</td><td>58670</td></tr>
+              <tr><td>1</td><td>111.9</td><td>111900</td></tr>
+            </tbody>
+          </table>
+          
+          <h3>Procedure:</h3>
+          
+          <ol>
+            <li>
+              <strong>Determination of cell constant:</strong> 
+              Rinse conductivity cell with at least three portions of 0.01 M KCl solution. Adjust temperature of fourth portion to 25.0º ±0.1ºC. 
+              If a conductivity meter displays resistance, R (ohms), measure resistance of this portion and note temperature. 
+              Compute cell constant, C:
+              <br><br>
+              <code>C (cm<sup>−1</sup>) = (0.001412) × R<sub>KCl</sub> × [1 + 0.0191 × (t − 25)]</code><br>
+              where <em>R<sub>KCl</sub></em> = measured resistance in ohms, and <em>t</em> = temperature in ºC.
+              <br><br>
+              Conductivity meters often display conductivity directly. Commercial probes often contain a temperature sensor. 
+              Rinse probe three times with 0.01 M KCl. Adjust the temperature compensation dial to 0.0191 ºC<sup>−1</sup>. 
+              With the probe in the standard KCl solution, adjust to read 1412 µS/cm. 
+              This procedure automatically adjusts the cell constant internal to the meter.
+            </li>
+          
+            <li>
+              <strong>Conductivity measurement:</strong> 
+              Thoroughly rinse the cell with one or more portions of the sample. 
+              Adjust the temperature of the final portion to about 25ºC. 
+              Measure the resistance or conductivity of the sample and note the temperature to ±0.1ºC.
+            </li>
+          </ol>
+          
+          
+          <h3>Values of Electrical Conductivity:</h3>
+          
+          <table cellpadding="8" cellspacing="0" style="text-align: center; margin: auto;">
+            <thead>
+              <tr>
+                <th>Sample</th>
+                <th>Electrical Conductivity (µS/cm)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Totally pure water</td>
+                <td>0.055</td>
+              </tr>
+              <tr>
+                <td>Typical DI water</td>
+                <td>0.1</td>
+              </tr>
+              <tr>
+                <td>Distilled water</td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>Raw water</td>
+                <td>50–100</td>
+              </tr>
+              <tr>
+                <td>Domestic "tap" water</td>
+                <td>500–800</td>
+              </tr>
+              <tr>
+                <td>Potable water (max)</td>
+                <td>1055</td>
+              </tr>
+              <tr>
+                <td>Sea water</td>
+                <td>56,000</td>
+              </tr>
+              <tr>
+                <td>Brackish water</td>
+                <td>100,000</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] WATER ANALYSIS-DETERMINATION OF PHYSICAL PARAMETERS" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AMRT&quot;,&quot;expname&quot;:&quot;WATER ANALYSIS-DETERMINATION OF PHYSICAL PARAMETERS&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://cdn.vlabs.ac.in/bug-report/vlabs-bug-report.js"></script><script type="module" src="/exp-determination-physical-parameters-amrt/plugins/svc-rating/index.js"></script><script type="module" src="/exp-determination-physical-parameters-amrt/plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>
