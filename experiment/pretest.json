@@ -24,6 +24,42 @@
       
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+     {
+      "question": "The concept of pH is put forwarded by __________ in 1909.",
+      "answers": {
+        "a": "Arrhenius",
+        "b": "Bronsted",
+        "c": "Sorensen",
+        "d": "Lewis"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Raw water has an electrical conductivity in the range of.........",
+      "answers": {
+        "a": "0.5 µS/cm",
+        "b": "56,000 µS/cm",
+        "c": "500-800 µS/cm",
+        "d": "50-100 µS/cm"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What can we measure by using a nephelometer?",
+      "answers": {
+        "a": "pH",
+        "b": "Electrical conductivity",
+        "c": "Turbidity",
+        "d": "Alkalinity"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
   ]
 }
